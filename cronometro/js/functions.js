@@ -27,6 +27,6 @@ function cronometroFunctions() { // creo funzione cronometro
 function printHtml(minutes, second) {
     second = second <= 9 ? "0" + second : second; // aggiungo lo zero se il numero è auna cifra
     minutes = minutes <= 9 ? "0" + minutes : minutes // aggiungo lo zero se il numero è auna cifra
-    document.getElementById("cronometro").innerHTML = minutes + " : " + second;
+    document.getElementById("cronometro").innerHTML = minutes + " : " + second; // stampo il risultato
 
 }
