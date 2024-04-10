@@ -5,9 +5,7 @@
  * @param {number} second
  */
 function cronometroFunctions() { // creo funzione cronometro
-    let second = 0;
-    let minutes = 0;
-    const cronometro = setInterval(function () {
+    cronometro = setInterval(function () {
 
         if (second < 60) {
             second++; // ad ogni interazione aumento i secondi di uno
