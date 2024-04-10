@@ -16,10 +16,11 @@ Dopo averlo implementato fatevi questa domanda:
 :thinking_face: che cosa succede se utente clicca sull'avvia più volte?
 
 ## Svolgimento esercizio countdown
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Impostare una tempo iniziale di 10 secondi e stamparlo a video
+- [ ] creare una funzione che ad ogni secondo diminuisca di uno il tempo iniziale
+- [ ] ad ogni interazione della funzione cambiare di conseguenza il countdown a video
+- [ ] al raggiungimento dello 0 bloccare il countdown
+- [ ] stampare a video buon anno
 ## Svolgimento esercizio cronometro
 - [ ] 
 - [ ] 
