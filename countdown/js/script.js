@@ -1,1 +1,1 @@
-countdownFunctions(10);
+countdownFunctions(15);
