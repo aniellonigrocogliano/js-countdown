@@ -7,21 +7,22 @@ let cronometro;
 let flag = false;
 printHtml(minutes, second)
 start.addEventListener("click", function () {
-    if(!flag){
+    if (!flag) {
         cronometroFunctions();
-        flag=true;
+        flag = true;
     }
-    
+
 })
 
 stop.addEventListener("click", function () {
     clearInterval(cronometro);
+    flag= false;
 })
 reset.addEventListener("click", function () {
     clearInterval(cronometro);
     second = 0;
     minutes = 0;
-    flag= false;
+    flag = false;
     printHtml(minutes, second);
 })
 

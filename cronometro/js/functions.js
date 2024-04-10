@@ -2,7 +2,7 @@
  * Description placeholder
  * @date 10/4/2024 - 16:52:16
  *
- * @param {number} second
+ * 
  */
 function cronometroFunctions() { // creo funzione cronometro
     cronometro = setInterval(function () {
@@ -22,7 +22,8 @@ function cronometroFunctions() { // creo funzione cronometro
  * Description placeholder
  * @date 10/4/2024 - 17:07:25
  *
- * @param {*} items
+ * @param {number} minutes
+ * @param {number} second
  */
 function printHtml(minutes, second) {
     second = second <= 9 ? "0" + second : second; // aggiungo lo zero se il numero è auna cifra

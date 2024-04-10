@@ -16,14 +16,18 @@ Dopo averlo implementato fatevi questa domanda:
 :thinking_face: che cosa succede se utente clicca sull'avvia più volte?
 
 ## Svolgimento esercizio countdown
-- [ ] Impostare una tempo iniziale di 10 secondi e stamparlo a video
-- [ ] creare una funzione che ad ogni secondo diminuisca di uno il tempo iniziale
-- [ ] ad ogni interazione della funzione cambiare di conseguenza il countdown a video
-- [ ] al raggiungimento dello 0 bloccare il countdown
-- [ ] stampare a video buon anno
+- [x] Impostare una tempo iniziale di 10 secondi e stamparlo a video
+- [x] creare una funzione che ad ogni secondo diminuisca di uno il tempo iniziale
+- [x] ad ogni interazione della funzione cambiare di conseguenza il countdown a video
+- [x] al raggiungimento dello 0 bloccare il countdown
+- [x] stampare a video buon anno
 ## Svolgimento esercizio cronometro
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [x] Creo funzione cronometro che incrementa di uno i secondi ad ogni secondo
+- [x] Nella funzione cronometro al raggiungimento di 60 secondi aumento di uno i minuti
+- [x] Nella funzione cronometro richiamo la funzione stampa che stampa a video minuti e secondi
+- [x] Richiamo il bottone avvia e passo la funzione cronometro al click dell'utente
+- [x] Richiamo il bottone stop che blocca il cronometro
+- [x] richiamo il bottone reset per resetare il tutto e portare ilo cronometro a 0
+- [x] creo una variabile flag che controlla se il cronometro è in esecuzione
+- [x] la variabile flag in caso sia impostata su true e l'utente clicca su avvia evita l'esecuzione doppia della funzione cronometro
+- [x] nel momento del reset e dello stop la variabile flag viene riempostata su false per poter permettere all'ìutente di poter ricliccare avvia
