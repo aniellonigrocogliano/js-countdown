@@ -7,7 +7,7 @@
 function cronometroFunctions() { // creo funzione cronometro
     cronometro = setInterval(function () {
 
-        if (second < 60) {
+        if (second < 59) {
             second++; // ad ogni interazione aumento i secondi di uno
         } else {
             second = 0;  // se ci sono 60 secondi incremento di 1 i minuti e resetto i secondi
